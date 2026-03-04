@@ -1,1 +1,2 @@
-# service-drupal-vinyl
+# Vinyl Cache (Varnish) service for Drupal
+
