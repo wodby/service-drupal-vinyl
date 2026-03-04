@@ -1,0 +1,24 @@
+name: drupal-vinyl
+type: service
+from: vinyl
+title: Vinyl (Drupal)
+
+update: auto
+    
+labels:
+- drupal
+- varnish
+- vinyl
+
+configs:
+- name: drupal
+  title: Drupal preset
+  filepath: /etc/gotpl/preset/drupal.vcl.tmpl
+  config: drupal.vcl.tmpl
+
+env:
+- name: VARNISH_CONFIG_PRESET
+  value: drupal
+# Big headers in Drupal Cache-tags.
+- name: VARNISHD_PARAM_HTTP_RESP_HDR_LEN
+  value: 16k
