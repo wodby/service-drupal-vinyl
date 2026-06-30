@@ -3,7 +3,6 @@ type: service
 from: vinyl
 title: Vinyl (Drupal)
 
-update: auto
     
 labels:
 - drupal
