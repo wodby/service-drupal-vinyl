@@ -2,7 +2,7 @@ name: drupal-vinyl
 type: service
 from: vinyl
 fromVersionConstraint: "^1.0.0"
-fromVersion: "1.0.4"
+fromVersion: "1.0.5"
 title: Vinyl (Drupal)
 
 
@@ -15,7 +15,9 @@ configs:
 - name: drupal
   title: Drupal preset
   filepath: /etc/gotpl/preset/drupal.vcl.tmpl
-  config: drupal.vcl.tmpl
+  default:
+    source: image
+    filepath: /etc/gotpl/presets/drupal.vcl.tmpl
 
 env:
 - name: VARNISH_CONFIG_PRESET
