@@ -2,7 +2,7 @@ name: drupal-vinyl
 type: service
 from: vinyl
 fromVersionConstraint: "^1.0.0"
-fromVersion: "1.0.6"
+fromVersion: "1.0.7"
 title: Vinyl (Drupal)
 
 
