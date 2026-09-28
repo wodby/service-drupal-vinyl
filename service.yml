@@ -14,7 +14,7 @@ labels:
 configs:
 - name: drupal
   title: Drupal preset
-  filepath: /etc/gotpl/preset/drupal.vcl.tmpl
+  filepath: /etc/gotpl/presets/drupal.vcl.tmpl
   default:
     source: image
     filepath: /etc/gotpl/presets/drupal.vcl.tmpl
