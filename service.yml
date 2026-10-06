@@ -1,6 +1,7 @@
 name: drupal-vinyl
 type: service
 from: vinyl
+guidance: GUIDANCE.md
 fromVersionConstraint: "^1.0.0"
 fromVersion: "1.0.15"
 title: Vinyl (Drupal)
