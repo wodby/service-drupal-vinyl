@@ -3,7 +3,7 @@ type: service
 from: vinyl
 guidance: GUIDANCE.md
 fromVersionConstraint: "^1.0.0"
-fromVersion: "1.1.6"
+fromVersion: "1.1.7"
 title: Vinyl (Drupal)
 
 
